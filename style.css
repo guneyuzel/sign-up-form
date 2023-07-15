@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+:root{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Tektur', cursive;    
+}
+
+body {
+    background-color: rgba(70, 205, 255, 0.2);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-1 {
+    height: 100vh;
+    width: 40vw;
+}
+
+.box-2 {
+    height: 100vh;
+    width: 60vw;
+}
+
+#left-side {
+    background-image: url(left-side-image.jpg);
+    background-size: contain;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    background-color: rgba(70, 205, 255, 0.2);
+
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3vw;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    margin-top: 5vh;
+    border-radius: 15px;
+}
+
+#logo-img {
+    width: 70px;
+    height: 70px;
+}
+
+#text {
+    margin: 3vh 5vw;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw;
+  
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 3vh;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+input:valid{
+    background-color: rgba(155, 255, 0, 0.3);
+}
+
+input:invalid{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+button {
+    margin-top: 3vh;
+    align-self: center;
+    padding: 1em 4em;
+    border-radius: 10px;
+    font-family: 'Tektur', cursive;
+
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+
