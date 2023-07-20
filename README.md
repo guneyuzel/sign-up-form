@@ -1,5 +1,5 @@
 # Sign-Up-Form
 
-This is a sign up page created with HTML, CSS and JavaScript.
+Sign up page created with HTML, CSS, and JS.
 
-## _[Live Demo](https://guneyuzel.github.io/sign-up-form/)_
+[Live Demo](https://guneyuzel.github.io/sign-up-page/) :point_left:_
