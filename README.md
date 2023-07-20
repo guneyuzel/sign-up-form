@@ -1,4 +1,4 @@
-# Sign-Up-Form
+# Sign-Up-Page
 
 Sign up page created with HTML, CSS, and JS.
 
